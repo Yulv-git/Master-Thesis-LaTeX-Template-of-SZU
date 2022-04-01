@@ -4,7 +4,7 @@
  * @Date: 2022-02-12 21:22:25
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-04-01 23:18:27
+ * @LastEditTime: 2022-04-01 23:51:32
  * @FilePath: \Master-Thesis-Template-of-SZU\README.md
  * @Description: Init from https://github.com/yichengsu/szuthesis a35dee8bd7fcedf61c7612e6ce277bb9560cdfc4
  * Repository: https://github.com/Yulv-git/Master-Thesis-Template-of-SZU
@@ -15,6 +15,7 @@
 ---
 
 - [1. 模板简介](#1-模板简介)
+  - [1.1. 致谢](#11-致谢)
 - [2. 论文编辑](#2-论文编辑)
 - [3. 论文字数统计](#3-论文字数统计)
 - [4. 深大学位申请系统，仅支持doc，docx格式的论文](#4-深大学位申请系统仅支持docdocx格式的论文)
@@ -34,6 +35,10 @@
 latexmk -synctex=1 -interaction=nonstopmode -file-line-error -pdfxe -outdir=./Temp -e ensure_path('TEXINPUTS','./texmf//') Thesis.tex
 ```
 
+## 1.1. 致谢
+
+本项目基于[szuthesis 深圳大学学位论文 LaTeX 模板](https://github.com/yichengsu/szuthesis)，并根据本人在毕业论文撰写期间的需求进行了适当修改。
+
 # 2. 论文编辑
 
 直接在`./Tex/`中的各个.tex文档中进行论文内容编辑即可。
@@ -41,13 +46,15 @@ latexmk -synctex=1 -interaction=nonstopmode -file-line-error -pdfxe -outdir=./Te
 # 3. 论文字数统计
 
 ``` sh
-bash wordcount.sh
+bash wordcount.sh  # Linux系统直接命令行运行。windows系统则在 git bash 或 shell 中运行该命令。
 ```
 
 # 4. 深大学位申请系统，仅支持doc，docx格式的论文
 
 ``` txt
     目前（2022.03.21），深大学位申请系统只能上传doc或docx格式的论文。
+
+    PS：若对该LaTex模板格式或质量有顾虑，或者担心LaTeX生成的PDF会影响查重精度，则可直接使用word进行论文编辑。
 ```
 
 ## 4.1. 尝试将.tex转为.docx
@@ -70,4 +77,4 @@ bash wordcount.sh
 # 5. 校外盲审版论文
 
 盲审版（从封面至附录），其中本文姓名、导师姓名、学校代码和学校名称等信息用***代替。
-pdf格式，命名为`专业代码_学号.pdf`。
+pdf格式，命名为`专业代码_学号.pdf`（具体命名根据学院或班级要求）。
