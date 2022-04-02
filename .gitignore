@@ -288,8 +288,3 @@ TSWLatexianTemp*
 
 # glossaries
 *.glstex
-
-# 临时隐藏的文件
-*.tex
-*.png
-*.bib
