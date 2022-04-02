@@ -4,7 +4,7 @@
  * @Date: 2022-02-12 21:22:25
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-04-02 11:07:26
+ * @LastEditTime: 2022-04-02 12:34:16
  * @FilePath: \Master-Thesis-Template-of-SZU\README.md
  * @Description: Init from https://github.com/yichengsu/szuthesis a35dee8bd7fcedf61c7612e6ce277bb9560cdfc4
  * Repository: https://github.com/Yulv-git/Master-Thesis-Template-of-SZU
@@ -35,7 +35,8 @@
 
 ## 1.2. 编译
 
-仅支持**xelatex**；文献编译引擎：biber (biblatex)。提供了`.vscode/settings.json`进行latexmk相关设置。
+本项目仅支持**xelatex**；文献编译引擎：biber (biblatex)。推荐使用 Tex Live 2020 + VS Code(LaTeX Workshop插件)。
+本项目提供了`.vscode/settings.json`进行latexmk相关设置。
 
 推荐使用 **latexmk** 命令编译文档，latexmk 命令可以自动适应不同的编译顺序，因本项目使用 biber 作为参考文献引擎，所以编译顺序可以与通常的顺序不同。
 如使用 VS Code，只需安装插件后重启项目，点击 `TEX -> Build LaTeX project -> Recipe: latexmk` 即可，或在命令行使用命令：
@@ -64,7 +65,7 @@ PS：更多使用教程或说明，请见[模板使用说明.pdf](https://github
 
 但不用慌，请见 [向学院秘书申请毕业论文上传pdf版](#22-向学院秘书申请毕业论文上传pdf版)。
 
-PS：若还有所顾虑，或可直接使用word进行论文编写。
+PS：若还有所顾虑，可将pdf转为docx然后进行修改调整，或直接使用word进行论文编写。
 
 ## 2.1. 尝试将.tex转为.docx
 
