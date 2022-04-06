@@ -4,13 +4,13 @@
  * @Date: 2022-02-12 21:22:25
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-04-02 12:34:16
- * @FilePath: \Master-Thesis-Template-of-SZU\README.md
+ * @LastEditTime: 2022-04-06 19:48:14
+ * @FilePath: \Master-Thesis-LaTeX-Template-of-SZU\README.md
  * @Description: Init from https://github.com/yichengsu/szuthesis a35dee8bd7fcedf61c7612e6ce277bb9560cdfc4
- * Repository: https://github.com/Yulv-git/Master-Thesis-Template-of-SZU
+ * Repository: https://github.com/Yulv-git/Master-Thesis-LaTeX-Template-of-SZU
 -->
 
-<h1><center> Master-Thesis-Template-of-SZU </center></h1>
+<h1><center> Master-Thesis-LaTeX-Template-of-SZU </center></h1>
 
 ---
 
