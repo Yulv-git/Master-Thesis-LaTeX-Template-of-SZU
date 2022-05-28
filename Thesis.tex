@@ -18,8 +18,9 @@
 
 % % 声明
 % 如果参数为空则可自动生成默认声明页，也可设置参数导入签字后的扫描版PDF文件
-% \makedeclaration{declaration}  % 制作声明，参数为扫描版文件名，默认在Image下
-\makedeclaration{}  % 制作声明，自动生成
+\makedeclaration{}  % 制作声明页面，自动生成
+% \makedeclaration{XX.pdf}  % 导入签名后的声明页扫描版，参数为pdf文档名，默认在Image下
+% \szuaddpdf{XX.jpg}  % 若\makedeclaration{XX.pdf}导致摘要页排版异常，则使用图像格式的扫描文档导入
 
 \frontmatter  % 初始化摘要页环境，不建议注释
 
@@ -46,10 +47,10 @@
 \include{Tex/Appendix}  % 导入附录
 
 % % 添加答辩记录
-% 建议分三个独立的PDF。\szuaddpdf包含两个参数，[]中为可选参数，用于生成目录，{}中为PDF文件名，默认在Image下
-% \szuaddpdf[指导教师对研究生学位论文的学术评语]{pingyu}
-% \szuaddpdf[学位论文答辩委员会决议书]{dabian1}
-% \szuaddpdf{dabian2}% 前一页生成目录即可
+% 建议分三个独立的PDF或图像。\szuaddpdf包含两个参数，[]中为可选参数，用于生成目录，{}中为文件名，默认在Image下
+% \szuaddpdf[指导教师对研究生学位论文的学术评语]{pingyu.pdf}
+% \szuaddpdf[学位论文答辩委员会决议书]{dabian1.pdf}
+% \szuaddpdf{dabian2.pdf}  % 前一页生成目录即可
 
 \include{Tex/Acknowledgements}  % 导入致谢  % 盲审版，注释掉此处
 
